@@ -10,7 +10,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-   baseURL: import.meta.env.VITE_API_BASE_URL,
+   baseURL:https://aurareviewbackend.onrender.com/api/v1,
    timeout: 10000,
    
    // 1. MUST BE TRUE to send and receive cookies (like the CSRF cookie)
