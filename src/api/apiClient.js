@@ -11,7 +11,7 @@ import axios from "axios";
 
 const apiClient = axios.create({
    baseURL: import.meta.env.VITE_API_BASE_URL,
-   timeout: 10000,
+   timeout: 30000,
    
    // 1. MUST BE TRUE to send and receive cookies (like the CSRF cookie)
    withCredentials: true, 
